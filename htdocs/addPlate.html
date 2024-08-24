@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <title>Gate Project</title>
+    <!-- link to javascript -->
+    <script type ="text/javascript" src = 'upMain.js'></script>
+
+    <!-- link to css stylesheet -->
+    <link href='gateInterfaceCSS.css' rel = 'stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id = "heading">
+        <h1>Gate Project</h1>
+    </div>
+
+    <div class = "heading2">
+        <div class="arrow" onclick=goBack()></div>
+        <h1>Add Number Plate</h1>
+    </div>
+
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" size=30><br><br>
+    <label for="plate">Number Plate:</label>
+    <input type="text" id="plate" name="plate" size=30>
+    <br><br>
+    <label for="plateCheck">Confirm Number Plate:</label>
+    <input type="text" id="plateCheck" name="plateCheck" size=30>
+    <br><br>
+
+    <div id="errorBar"></div>
+    <div style = "text-align:center;">
+        <button type="button" onclick = addNumberPlate()>Enter</button>
+    </div>
+    
+</body>
+</html>

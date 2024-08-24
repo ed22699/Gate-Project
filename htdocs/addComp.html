@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <title>Gate Project</title>
+    <!-- link to javascript -->
+    <script type ="text/javascript" src = 'upMain.js'></script>
+
+    <!-- link to css stylesheet -->
+    <link href='gateInterfaceCSS.css' rel = 'stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id = "heading">
+        <h1>Gate Project</h1>
+    </div>
+
+    <div class = "heading2">
+        <div class="arrow" onclick=goBack()></div>
+        <h1>Add Company</h1>
+    </div>
+
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" size=30><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="companyPassword" name="password" size=30>
+    <input type="checkbox" onclick = show()>Show Password
+    <br><br>
+    <label for="password">Confirm Password:</label>
+    <input type="password" id="companyPasswordCheck" name="password" size=30>
+    <input type="checkbox" onclick = show2()>Show Password
+    <br><br>
+
+    <div id="errorBar"></div>
+    <div style = "text-align:center;">
+        <button type="button" onclick = getInfo()>Enter</button>
+    </div>
+    
+</body>
+</html>

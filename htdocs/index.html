@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <title>Gate Project</title>
+    <!-- link to javascript -->
+    <script type ="text/javascript" src = 'gateInterface.js'></script>
+
+    <!-- link to css stylesheet -->
+    <link href='gateInterfaceCSS.css' rel = 'stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id = "heading">
+        <h1>The Gate Project</h1>
+
+    
+    </div>
+    <h2>Login</h2>  
+
+    <!-- figure out how to center these inputs -->
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" size=30><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="companyPassword" name="password" size=30>
+    <input type="checkbox" onclick = show()>Show Password
+    <br><br>
+
+    <!-- error bar -->
+    <div id="errorBar"></div>
+    <br>
+
+    <div style = "text-align:center;">
+        <button type="button" onclick = getInfo()>Log In</button>
+    </div>
+</body>
+</html>
+
+
+<!-- https://www.w3schools.com/xml/ajax_database.asp -->
