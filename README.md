@@ -2,7 +2,7 @@
 An ANPR system for automatically 
 opening gates at a rental unit site. Has the ability to add and 
 remove companies as well as log all entries
->[! NOTE]
+> [!NOTE]
 > Some files may be missing from this repository as this is an old project 
 > coded on multiple devices without the use of any version control system as 
 > this was before I began using GitHub
